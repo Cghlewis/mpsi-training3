@@ -837,7 +837,7 @@ Whatever you finally decide on, document your rule in your **style guide**
 knitr::include_graphics("img/varnames.png")
 ```
 
-Source: Dr. Aaron Thompson, STARS study, MPSI
+Source: Dr. Aaron Thompson, STARS study, [MPSI](http://moprevention.org/)
 
 ---
 
@@ -916,10 +916,10 @@ Similar to your variable naming protocol, you will want protocol for your value 
 * **Acknowledgement:** 
 
   + Danielle Navarro provided so much inspiration around the look and feel of the slides as well as content regarding directory structure. You can view her amazing slides [here](https://slides.djnavarro.net/project-structure/#1).
+  
+* **All materials for this series can be found at** https://cghlewis.github.io/mpsi-data-training/ 
 
-* **Next training planned for May 14th**
-
-* **Topic will be "Data Cleaning Plan"**
+* **Next training planned for May 14th (Topic: Data Cleaning Plans)**
 
 
 ```{r fig.align="center", echo=FALSE, out.width='70%'}
