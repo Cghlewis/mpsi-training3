@@ -1,0 +1,2126 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Data Management in Large-Scale   Education Research</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Crystal Lewis" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Data Management in Large-Scale <br> Education Research
+## <br> Style Guide
+### Crystal Lewis
+### Missouri Prevention Science Institute
+### 04/16/2021 (updated: 04/15/2021)
+
+---
+
+
+
+
+# Scenario
+
+## You need to access the data dictionary for Project A, so you start to look around in the Project A directory
+
+&lt;br&gt;
+
+&lt;img src="img/batman.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: inverse
+
+# Project A directory
+
+**What folder do you look in?** **What questions do you have?**
+
+* 📁 project-a
+  * 📂 Mary's Dissertation
+  * 📂 Entry Files
+  * 📁 From Data Computer
+  * 📂 IOA re-entry for Volunteers
+  * 📁 project-a
+  * 📂 project-a data2
+  * 📂 video coding
+  * 📁 Catherine
+  * 📁 propensity scoring
+  * 📂 Frank's dissertation
+  * 📄 Measures Documentation.docx
+  * 📄 Measures for papers_in progress by Terrance.docx
+  * 📄 Timeline for projects.xlsx
+
+
+---
+
+class: inverse
+
+# Project A directory - cont.
+
+**You make your way into the *project-a data2* folder and you find a *data documentation* folder**
+
+**What file do you choose?**
+
+
+* 📂 data documentation
+  * 📄 data dictionary_backup.xlsx
+  * 📄 data dictionary_backup backup.xlsx
+  * 📄 data dictionary_FINAL.xlsx
+  * 📄 data dictionary_11.05.2020.xlsx
+  * 📄 data dictionary_11.05.2020_AS edits.xlsx
+  * 📄 data dictionary 11.06.2020_AS edits FINAL.xlsx
+  * 📄 data dictionary 11.07.2020_AS JT edits_FINAL.xlsx
+
+---
+
+# You open the data dictionary
+
+**Are these variable names clear without the dictionary?**
+
+**Are the value codes clear without the dictionary?**
+
+&lt;br&gt;
+
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#wdhvngczec .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#wdhvngczec .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#wdhvngczec .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#wdhvngczec .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#wdhvngczec .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#wdhvngczec .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#wdhvngczec .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#wdhvngczec .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#wdhvngczec .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#wdhvngczec .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#wdhvngczec .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#wdhvngczec .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#wdhvngczec .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#wdhvngczec .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#wdhvngczec .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#wdhvngczec .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#wdhvngczec .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#wdhvngczec .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#wdhvngczec .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#wdhvngczec .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#wdhvngczec .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#wdhvngczec .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#wdhvngczec .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#wdhvngczec .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#wdhvngczec .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#wdhvngczec .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#wdhvngczec .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#wdhvngczec .gt_left {
+  text-align: left;
+}
+
+#wdhvngczec .gt_center {
+  text-align: center;
+}
+
+#wdhvngczec .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#wdhvngczec .gt_font_normal {
+  font-weight: normal;
+}
+
+#wdhvngczec .gt_font_bold {
+  font-weight: bold;
+}
+
+#wdhvngczec .gt_font_italic {
+  font-style: italic;
+}
+
+#wdhvngczec .gt_super {
+  font-size: 65%;
+}
+
+#wdhvngczec .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="wdhvngczec" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">var_name</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">question</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">value</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr>
+      <td class="gt_row gt_left">Q1</td>
+      <td class="gt_row gt_left">What is your gender</td>
+      <td class="gt_row gt_left">0=female, 1=male, 2=non-binary</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Q2</td>
+      <td class="gt_row gt_left">What is your age?</td>
+      <td class="gt_row gt_left">numeric</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Q3</td>
+      <td class="gt_row gt_left">What grade are you in?</td>
+      <td class="gt_row gt_left">1,2,3,4,5</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Q4_1</td>
+      <td class="gt_row gt_left">I pay attention in class</td>
+      <td class="gt_row gt_left">1=SD, 2=D, 15=A, 16=SA</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Q4_2</td>
+      <td class="gt_row gt_left">I try hard to do well in this class</td>
+      <td class="gt_row gt_left">1=SD, 2=D, 15=A, 16=SA</td>
+    </tr>
+  </tbody>
+  
+  
+</table></div>
+
+---
+
+# Style guide
+
+## A set of standards around data management
+
+--
+
+* Improves searchability
+
+--
+
+* Improves interpretation
+
+--
+
+* Allows reproducibility
+
+--
+
+* Creates consistency across all projects and/or within individual projects
+
+--
+
+* Document this style guide keep it somewhere that is easily accessed by ALL team members (Team Wiki, in a ReadME at the top of a project file folder)
+
+--
+
+* Create this guide before a project begins
+
+--
+
+* Train your team to follow the style guide protocol
+
+---
+
+# Style guide topics for today
+
+
+.pull-left[
+
+&lt;br&gt;
+
+Protocols for:
+
+  * Directory Structure
+
+
+  * File Naming
+
+
+  * Variable Naming
+
+
+  * Value Coding
+]
+
+.pull-right[
+
+&lt;img src="img/sdp.png" width="733" style="display: block; margin: auto;" /&gt;
+Source: [Harvard SDP](https://hwpi.harvard.edu/files/sdp/files/sdp-toolkit-coding-style-guide.pdf)
+
+]
+
+---
+
+class:middle, inverse
+
+# DIRECTORY STRUCTURE
+
+---
+
+class: inverse
+
+# Directory structure - file tree
+
+* 📂 project-new
+  * 📁 documentation
+      * 📄 project-new_data-dictionary_v05.xlsx
+      * 📄 project-new_codebook_v02.pdf
+  * 📁 data
+      * 📁 cohort-1
+          * 📂 raw
+              * 📄 c1_stu_svy_download_2020-11-05.csv
+          * 📂 syntax
+              * 📄 c1_stu_svy_cleaning-script_v01.R
+          * 📂 clean
+              * 📄 c1_stu_svy_clean_v01.csv
+  * 📁 tracking
+      * 📁 cohort-1
+          * 📂 participant-database
+              * 📄 c1_particpant-db_v01.sqlite
+
+
+---
+
+class: inverse
+
+# Directory Structure - file paths
+
+### Every document has a file path
+
+* 📁 project-new
+  + 📁 documentation
+      + 📄 project-new_data-dictionary_v05.xlsx
+      + 📄 project-new_codebook_v02.pdf
+
+
+--
+
+In Windows:
+
+* project-new\documentation\project-new_data-dictionary_v05.xlsx
+* project-new\documentation\project-new_codebook_v02.pdf
+
+--
+
+On Mac:
+
+* project-new/documentation/project-new_data-dictionary_v05.xlsx
+* project-new/documentation/project-new_codebook_v02.pdf
+
+---
+
+# Your file paths live within a home directory
+
+* For the MPSI, that home folder is W: (our shared network drive)
+  * **Windows**: W:\MPC-All-Projects
+  * **Mac**: /Volumes/MPC-All-Projects
+  
+* If you are storing files on your computer, your home folder is most likely your username. 
+  * **Windows**: C:\Users\username
+  * **Mac**: Users/username
+  
+So the full file path for our previously mentioned data dictionary may be:
+  * W:\MPC-All-Projects\project-new\documentation\project-new_data-dictionary_v05.xlsx  
+  
+  OR  
+  
+  * /Volumes/MPC-All-Projects/project-new\documentation\project-new_data-dictionary_v05.xlsx
+
+---
+
+# To find your full file paths
+
+On Windows you can simply click into the *address bar* to see your path
+
+&lt;img src="img/path2.png" width="80%" height="20%" style="display: block; margin: auto;" /&gt;
+
+Or right click on a document and go to *properties* and then *security*
+
+&lt;img src="img/properties.png" width="45%" height="30%" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Directory structure style guide
+
+--
+
+* Allow you to find files easier
+  + Which path is more descriptive?
+      - **SG**: W:\project-a\data\cohort-1\student\raw
+      - **No SG**: W:\Project-a\data2 New
+
+--
+
+* Allow your computer to find files easier
+  + Which path is more machine readable?
+      - **SG**: W:\project-a\data\cohort-1\student\raw
+      - **No SG**: W:\Project A\Data\Cohort 1\student.raw\Survey
+
+--
+
+* Maintain reproducibility in your data management tasks (consistent file paths)
+  + Which file paths maintain reproducibility across time?
+      - **SG**: W:\project-a\data\cohort-1\student\raw **and** W:\project-a\data\cohort-2\student\raw
+      - **No SG**: W:\project-a\data\cohort-1\student\raw **and** W:\project-a\data\cohort-2\raw\student
+
+--
+
+* Data security (limiting carte blanche access)
+  + Which path is easier to maintain security?
+      - **SG**: W:\project-a\data
+      - **No SG**: W:\project-a
+
+
+---
+
+# Directory structure - general rules
+
+--
+
+* Strike a balance between deep and shallow
+
+  + Too shallow leads to many files in one folder
+  + Too deep leads to too many clicks and file paths that are too long
+  
+--
+
+* Create folders that are specific enough to limit access
+
+--
+
+* Folder names should human readable (meaningful and easy to understand)
+
+--
+
+* Folder names should be machine readable
+
+  + No spaces or punctuation
+  + `_` or `-` to separate within and between pieces of metadata
+  
+--
+
+* Be consistent with capitalization
+
+--
+
+* Consider the use of an *archive* folder for old versions of files
+
+---
+
+# Example directory structure style guide
+
+1. All project directories follow this hierarchical metadata structure  
+      - Level 1: Name of project  
+      - Level 2: Life cycle folders  
+      - Level 3: Time period/Data collection wave folders (if relevant)  
+      - Level 4: Specific content folder  
+      - Level 5: Participant specific folder
+      - Level 5: Archive folders  
+2. All folders should be named according to these rules  
+      - Meaningful name but no longer than 20 characters  
+      - No spaces or periods in folder names  
+      - Only use lower case letters  
+      - Use `-` to separate words  
+3. All previous versions of files must be placed into their respective *archive* folder
+      - README_versioning.txt placed in each folder to document changes between versions
+
+&lt;br&gt;
+&lt;br&gt;
+
+Note: If versioning software is used, #3 is unnecessary
+      
+---
+
+class: inverse
+
+# Example using that style guide
+
+* 📂 project-new
+  * 📂 data
+      * 📂 cohort-1
+          * 📂 student
+              * 📂 raw
+                  * 📄 README_versioning.txt
+                  * 📂 archive
+              * 📂 syntax
+                  * 📄 README_versioning.txt
+                  * 📁 archive
+              * 📂 clean
+                  * 📄 README_versioning.txt
+                  * 📂 archive
+  * 📂 tracking
+      * 📁 cohort-1
+          * 📁 participant-database
+              * 📄 README_versioning.txt
+              * 📁 archive
+
+
+---
+
+class: middle, inverse
+
+# FILE NAMES
+
+
+---
+
+class: center
+
+# We are all subject to "mood based naming"
+
+&lt;img src="img/phd.png"; style="max-width:400px;"&gt;  
+Source: [PhD Comics](http://phdcomics.com/comics/archive.php?comicid=1531)
+
+---
+
+# File naming style guide
+
+--
+
+* Allow you to locate files easier and prevent errors
+  + Which file names are more human readable and ensure you select the most recent document?
+      - **SG**: dsc_stu_svy-proto_2020-10-01.docx **and** dsc_stu_svy-proto_2020-10-22.docx
+      - **No SG**: survey protocol(1) FINAL.docx **and** survey protocol(1) CE edits.docx
+
+--
+
+* Allow your computer to find files easier
+  + Which path is more machine readable?
+      - **SG**: dsc_stu_svy-protocol_2020-10-01.docx
+      - **No SG**: Student survey protocol(1).docx
+
+--
+
+* Maintain reproducibility in your data management tasks (consistent file names)
+  + Which file names maintain reproducibility across time?
+      - **SG**: tch_form_cohort1_time1.xlsx **and** tch_form_cohort1_time2.xlsx
+      - **No SG**: tch_form_cohort1_time1.xlsx **and** cohort1_time2_tch_form.xlsx
+      - **No SG**: tch\_form\_cohort1\_time1.xlsx **and** tch\_form\_cohort1\_ time2.xlsx
+      - **No SG**: tch\_form\_cohort1\_time1.xlsx **and** tch\_form\_cohort1\_Time2.xlsx
+
+
+---
+
+# File names - general rules
+
+--
+
+* Don't use spaces between words
+
+  + They can often break a URL when shared
+  
+--
+
+* Don't use special characters **except** `-` and `_`
+ 
+  + No `.` `!` `\` `/` `"` `|` `*` `#` `:` `&gt;` `&lt;` `?` `^`
+  + They can have meaning within programming languages
+  
+--
+  
+* Do use `_` to separate between metadata (ex:student_survey)
+
+--
+
+* Do use `-` to separate between words in the same metadata (ex: cohort-1)
+
+--
+
+* Be intentional with capitalization 
+
+  + Use all lower case, or use capital letters at the start of all new words
+  
+
+---
+
+# File names - general rules - cont.
+
+--
+
+* Make names descriptive
+
+  + A user should understand the contents without opening the file
+
+--
+
+* Pay attention to the number of characters to prevent hitting your path limit
+
+  + This is a file name created by Qualtrics for one of our surveys 😲: `Rural+Center+Montana+Study+(EIS+first)+2020-+Exemplar+Schools_March+19,+2021_07.49.sav`
+
+--
+
+* Consider keeping redundant metadata in the file name (ex: project name, wave)
+  
+  + Reduces confusion if you ever move the file
+  + Helps make your files searchable
+  
+--
+
+* Don't use `\` or `.` in dates. Format dates in one of two sortable ways:
+  
+  + [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) or [RFC-3339](https://medium.com/easyread/understanding-about-rfc-3339-for-datetime-formatting-in-software-engineering-940aa5d5f68a) format: YYYY-MM-DD
+  + YYYYMMDD (this way reduces the number of characters but may be more difficult to read)
+
+---
+
+# File names - general rules - cont.
+
+--
+
+* When adding versions, pick a format and stick to it. Consider left padding with 0.
+  
+  + v01, v02
+  
+--
+  
+* If your files need to be run in sequential order, add the order number to the beginning of the file, again with leading zeros.
+
+  + 01\_ , 02\_, 03\_
+
+--
+
+* Choose abbreviations to use for common names (ex: stu = student)
+
+--
+
+* Pick an order for metadata
+
+  1. Project Name
+  2. Cohort
+  3. Participant
+  4. Measure
+  5. Version
+  
+
+
+
+&lt;code class ='r hljs remark-code'&gt;"&lt;span style='background-color:#ffff7f'&gt;dsc&lt;/span&gt;`_`&lt;span style='background-color:#ffff7f'&gt;c1&lt;/span&gt;`_`&lt;span style='background-color:#ffff7f'&gt;stu&lt;/span&gt;`_`&lt;span style='background-color:#ffff7f'&gt;svy-protocol&lt;/span&gt;`_`&lt;span style='background-color:#ffff7f'&gt;2021-01-07&lt;/span&gt;.xlsx"&lt;/code&gt;
+
+---
+
+# Example file naming style guide
+
+1. Never use spaces or special characters between words.
+1. Use `_` between metadata and `-` to separate words within metadata
+1. Use the following metadata file naming order:
+    - Order of use (if relevant--and always add a 0 before single digits)
+    - Cohort/Wave (if relevant)
+    - Participant
+    - Measure
+    - Further description
+    - Date (always add)--Note some schools of thought are to add this as #1 for sortability
+    - Version (if necessary--add version with v# and a leading 0)
+1. Format dates as YYYY-MM-DD
+1. Only use lower case letters
+1. Use the following abbreviations
+    - student = stu
+    - teacher = tch
+    - survey = svy
+    - protocol = proto
+    - cohort = c
+    - time = t
+
+---
+
+# Example file names using that guide
+
+* `01_c1_t1_stu_svy_cleaning-syntax_2021-01-22.R`
+* `01_c1_t1_stu_svy_cleaning-syntax_2021-01-11v02.R`
+* `02_c1_t1_stu_svy_report-syntax_2021-01-23.R`
+* `02_c1_t1_stu_svy_report-syntax_2021-02-05.R`
+
+&lt;br&gt;
+
+* `c1_t1_stu_svy_raw-download_2021-01-07.xlsx`
+* `c1_t1_stu_svy_clean-data_2021-01-10.sav`
+
+&lt;br&gt;
+
+* `stu_svy_proto_2021-02-08.docx`
+* `stu_svy_proto_2021-02-10.docx`
+
+&lt;br&gt;
+
+**Notice how easy these are to read** 😍 
+
+---
+
+class: center
+
+# Let's talk versioning
+
+&lt;img src="img/version.png"; style="max-width:530px;"&gt;  
+Source: [devRant](https://devrant.com/search?term=version+control)
+
+
+---
+
+# Versioning
+
+**Some sort of versioning of files is always necessary!**
+
+You have one of two options:
+
+1. **&lt;span style="color: #009400; "&gt;Use versioning software/platform (Git, SharePoint, Box, OneDrive)&lt;/span&gt;** 
+
+  + No need to add version or date to your file name (or to your style guide)
+  + Every time you save a new copy you can add comments to explain the differences between versions
+  + You can go back into your history and restore previous versions
+  
+2. **&lt;span style="color: #009400; "&gt;Create your own manual versioning (less preferred method))&lt;/span&gt;** 
+
+  + Again, by adding a date and/or a version number to your documents you can track the most recent versions of documents
+  + Adding a README to your folders (ex: ReadME_versioning.txt) where you add comments explaining the document updates each time you save a new version
+
+---
+
+class:middle, inverse
+
+# VARIABLE NAMES
+
+---
+
+# Variable name style guide
+
+--
+
+* Improves interpretation and reduces human error
+  + Which variable name is more human readable?
+      - **SG**: *s_gender*
+      - **No SG**: *q5*
+
+--
+
+* Allow your computer to manipulate variables easier
+  + Which variable is more machine readable?
+      - **SG**: *toca33*
+      - **No SG**: *Family_problems_negatively_affect_this_childs_behavior_in_school*
+
+--
+
+* Maintain reproducibility in your data management tasks (consistent variable names)
+  + Which variable names maintain reproducibility across time?
+      - **SG**: &lt;span style="color: #009400; "&gt;Time 1&lt;/span&gt;: *toca1* **and** &lt;span style="color: #009400; "&gt;Time 2&lt;/span&gt;: *toca1*
+      - **No SG**: &lt;span style="color: #009400; "&gt;Time 1&lt;/span&gt;: *toca1* **and** &lt;span style="color: #009400; "&gt;Time 2&lt;/span&gt;: *toca_1*
+
+--
+
+* Improves data management across projects 
+  + Which variable names allow you to combine data across projects?
+      - **SG**: &lt;span style="color: #009400; "&gt;Project A&lt;/span&gt;: *toca1* **and** &lt;span style="color: #009400; "&gt;Project B&lt;/span&gt;: *toca1*
+      - **No SG**: &lt;span style="color: #009400; "&gt;Project A&lt;/span&gt;: *toca1* **and** &lt;span style="color: #009400; "&gt;Project B&lt;/span&gt;: *toca_1*
+
+
+---
+
+class: center
+
+# Choosing variable names is hard
+
+&lt;img src="img/var_name4.png"; style="max-width:450px;"&gt;  
+Source: [Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/8k9cmu/indeed_everytime/)
+
+---
+
+# Variable names - general rules
+
+--
+
+* Names should be meaningful
+  
+  + Instead of *q1* use *gender*
+ 
+--
+
+* Set a character limit
+
+  + Most statistical programs have limits (SPSS = 64, Stata = 32, SAS = 32)
+  
+--
+
+* If part of a measure, use the scale abbreviation in the name, plus the item number
+
+  + *toca1*
+  + *toca_emoreg_sum*
+  
+  
+--
+
+* Keep variable names the same across time in a project
+
+  + *anxiety1* in the fall and *anxiety1* again in the spring
+  
+--
+
+* Keep variable names the same across projects
+
+  + Some people would like to keep variable names the same across the field
+  
+---
+
+# Variable names - general rules - cont.
+
+--
+
+* Don't use spaces or special characters (except `-` or `_`)
+
+--
+
+* Be consistent with delimiters and capitalization
+
+  + Pascal case (*ScaleSum*)
+  + Snake case (*scale_sum*)--preferred method for variable names
+  + Camel case (*scaleSum*)
+  + Kebab case (*scale-sum*)
+  + Train case (*Scale-Sum*)
+
+--
+
+* Don't start a variable name with a number
+
+  + Most statistical programs won't even allow this
+  
+--
+
+* All variable names in a study should be unique 
+
+  + *d_gender* = student gender reported by the district
+  + *s_gender* = student gender self-reported
+  + *t_gender* = teacher gender self-reported
+
+---
+
+# Variable names - general rules - cont.
+
+--
+
+* Denote reverse coding in the variable name
+  
+  + *scale1* and *scale1_r*
+
+--
+
+* Choose abbreviations to use for common scale names and phrases
+
+  + scaled score = ss
+  + percentil rank = pr
+  + woodcock johnson test of cognitivie abilities = wj
+  
+--
+
+* Track different versions of variables
+
+  + If a question wording significantly changes or response options change for a variable mid-project after you've collected data, version that variable
+  + Ex: revised *scale1* becomes *scale1_v2*
+  
+--
+
+* Consider including an indication of the instrument in your variable name
+
+  + Ex: s = student self-survey, r = teacher rating of student, t = teacher self-survey
+  + *s_anxiety1* and *r_toca1*
+  + This also helps make your variable names unique (ex: t_gender, s_gender)
+
+  
+---
+
+# Variable names - time
+
+If your data is longitudinal, you need to consider time in your variable naming
+
+Depending on how you plan to merge your data, there are 2 ways to account for time:
+
+1. **&lt;span style="color: #009400; "&gt;Concatenate time to your variables.&lt;/span&gt;** 
+
+  + You do this if you plan to merge your data in wide format
+  + Every participant has one row of data
+  + For example for 3 waves of scale1 on the student self-survey
+      + *s1_scale1*, *s2_scale1*, *s3_scale1* 
+      + Or *s_fall_scale1*, *s_wint_scale1*, *s_spr_scale1* 
+  + If you are collecting cohorts, you may still want *cohort* added as a separate variable
+
+2. **&lt;span style="color: #009400; "&gt;Create a time variable and add them to your data.&lt;/span&gt;** 
+
+  + You do this if you plan to append your data in long format.
+  + Every participant occurs in your data more than once for each wave of data collection.
+  + Ex: Add a *cohort* variable and a *wave* variable to your data and *s_scale1* stays the same variable name for every wave of data collection
+  
+
+---
+
+# Variable names - time - example
+
+Wide Format
+
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#hsxedbfctj .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#hsxedbfctj .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#hsxedbfctj .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#hsxedbfctj .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#hsxedbfctj .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hsxedbfctj .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#hsxedbfctj .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#hsxedbfctj .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#hsxedbfctj .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#hsxedbfctj .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#hsxedbfctj .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#hsxedbfctj .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#hsxedbfctj .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#hsxedbfctj .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#hsxedbfctj .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#hsxedbfctj .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#hsxedbfctj .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#hsxedbfctj .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hsxedbfctj .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#hsxedbfctj .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hsxedbfctj .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#hsxedbfctj .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#hsxedbfctj .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hsxedbfctj .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#hsxedbfctj .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#hsxedbfctj .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#hsxedbfctj .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#hsxedbfctj .gt_left {
+  text-align: left;
+}
+
+#hsxedbfctj .gt_center {
+  text-align: center;
+}
+
+#hsxedbfctj .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#hsxedbfctj .gt_font_normal {
+  font-weight: normal;
+}
+
+#hsxedbfctj .gt_font_bold {
+  font-weight: bold;
+}
+
+#hsxedbfctj .gt_font_italic {
+  font-style: italic;
+}
+
+#hsxedbfctj .gt_super {
+  font-size: 65%;
+}
+
+#hsxedbfctj .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="hsxedbfctj" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">stu_id</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">cohort</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">s1_scale1</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">s1_scale2</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">s2_scale1</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">s2_scale2</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr>
+      <td class="gt_row gt_right">30415</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">0</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">30524</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">3</td>
+      <td class="gt_row gt_right">0</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">1</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">30530</td>
+      <td class="gt_row gt_right">2</td>
+      <td class="gt_row gt_right">2</td>
+      <td class="gt_row gt_right">2</td>
+      <td class="gt_row gt_right">0</td>
+      <td class="gt_row gt_right">0</td>
+    </tr>
+  </tbody>
+  
+  
+</table></div>
+
+Long Format
+
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#sjqcdmqdpl .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#sjqcdmqdpl .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#sjqcdmqdpl .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#sjqcdmqdpl .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#sjqcdmqdpl .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#sjqcdmqdpl .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#sjqcdmqdpl .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#sjqcdmqdpl .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#sjqcdmqdpl .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#sjqcdmqdpl .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#sjqcdmqdpl .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#sjqcdmqdpl .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#sjqcdmqdpl .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#sjqcdmqdpl .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#sjqcdmqdpl .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#sjqcdmqdpl .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#sjqcdmqdpl .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#sjqcdmqdpl .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sjqcdmqdpl .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#sjqcdmqdpl .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sjqcdmqdpl .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#sjqcdmqdpl .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#sjqcdmqdpl .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#sjqcdmqdpl .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#sjqcdmqdpl .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#sjqcdmqdpl .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#sjqcdmqdpl .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#sjqcdmqdpl .gt_left {
+  text-align: left;
+}
+
+#sjqcdmqdpl .gt_center {
+  text-align: center;
+}
+
+#sjqcdmqdpl .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#sjqcdmqdpl .gt_font_normal {
+  font-weight: normal;
+}
+
+#sjqcdmqdpl .gt_font_bold {
+  font-weight: bold;
+}
+
+#sjqcdmqdpl .gt_font_italic {
+  font-style: italic;
+}
+
+#sjqcdmqdpl .gt_super {
+  font-size: 65%;
+}
+
+#sjqcdmqdpl .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="sjqcdmqdpl" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">stu_id</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">cohort</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">wave</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">s_scale1</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">s_scale2</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr>
+      <td class="gt_row gt_right">30415</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">1</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">30415</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">2</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">0</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">30524</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">3</td>
+      <td class="gt_row gt_right">0</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">30524</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">2</td>
+      <td class="gt_row gt_right">1</td>
+      <td class="gt_row gt_right">1</td>
+    </tr>
+  </tbody>
+  
+  
+</table></div>
+
+---
+
+# Variable names - final thoughts on time
+
+You do not need to decide the following yet:
+
+  * How you want to merge your data
+  * How you want to account for time
+  * How you want to account for the survey instrument
+
+--
+
+As you collect data, account for time in your file name:
+
+  * c1_t1_stu_svy_clean-data_2021-01-10.sav
+  * Because of my style guide, I know this file is cohort 1, time 1, student, self-report survey
+  * When I go to finally merge my data, I can make my decisions then
+
+--
+
+If you choose long and later want your data in wide format, it is very easy to switch back and forth between long and wide format in statistical programs. Don't worry!
+
+Whatever you finally decide on, document your rule in your **style guide**
+
+---
+
+# Example variable name style guide
+
+&lt;img src="img/varnames.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+Source: Dr. Aaron Thompson, STARS study, MPSI
+
+---
+
+# Variable names - documentation
+
+At the end of any project you will need to add relevant style guide information to your final documentation so that users can interpret your naming conventions (ex: Codebook)
+
+&lt;br&gt;
+
+An example of what would go into your codebook:
+
+*All variable names are made up of the following 4 components*:  
+1. measure (s=student survey, t=teacher survey, o=teacher observation)  
+2. data collection wave (1=fall, 2=winter, 3=spring)  
+3. variable/scale name    
+4. variable/scale #  
+
+Sample: *s2_toca4* = student survey-winter-toca scale-item4
+
+---
+
+class: inverse, middle
+
+# VALUE CODING
+
+---
+
+# Value coding general rules
+
+--
+
+* Keep values consistent across the project
+  
+  + **Do**: Always use 1=yes; 0=no
+      + **Don't**: For some variables use 2=yes; 1=no, for other variables 1=yes; 0=no
+  + **Do**: Always use m=male, f=female, n=non-binary
+      + **Don't**: Switch between 'M', 'm', and 'male' to denote male
+    
+--
+
+* Make sure scale response option ordering makes sense
+
+  + **Do**: Strongly Disagree = 1; Disagree = 2; Agree =3; Strongly Agree = 4
+      + **Don't**: Strongly Disagree = 1; Disagree = 3; Agree = 4; Strongly Agree = 2
+    
+--
+
+* Define missing values
+
+  + You can decide to leave all missing values as NA or NULL
+  + Or you can assign missing values based on their properties
+      - Use extreme values that do not actually occur in your data
+      - Do not use character values in numeric fields
+      
+---
+
+# Example missing value coding style guide
+
+&lt;br&gt;
+
+&lt;img src="img/missing.png" width="1396" style="display: block; margin: auto;" /&gt;
+Source: [NCES](https://nces.ed.gov/pubs2015/2015074.pdf)
+
+&lt;br&gt;
+
+Similar to your variable naming protocol, you will want protocol for your value coding (especially missing value coding) to go into your final documentation, as well as your style guide.
+
+---
+
+# Questions
+
+* **Acknowledgement:** 
+
+  + Danielle Navarro provided so much inspiration around the look and feel of the slides as well as content regarding directory structure. You can view her amazing slides [here](https://slides.djnavarro.net/project-structure/#1).
+
+* **Next training planned for May 14th**
+
+* **Topic will be "Data Cleaning Plan"**
+
+
+&lt;img src="img/cleaning.png" width="70%" style="display: block; margin: auto;" /&gt;
+Source: [Medium](https://medium.com/analytics-vidhya/data-cleansing-steps-in-python-ed307d3a7875)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
