@@ -280,7 +280,7 @@ knitr::include_graphics("img/properties.png")
 * Maintain reproducibility in your data management tasks (consistent file paths)
   + Which file paths maintain reproducibility across time?
       - **SG**: W:\project-a\data\cohort-1\student\raw **and** W:\project-a\data\cohort-2\student\raw
-      - **No SG**: W:\project-a\data\cohort-1\student\raw **and** W:\project-a\data\cohort-2\raw\student
+      - **No SG**: W:\project-a\data\cohort-1\student\raw **and** W:\project-a\data\cohort-2\<span style="color: coral; ">raw</span>\<span style="color: coral; ">student</span>
 
 --
 
@@ -413,9 +413,9 @@ Source: [PhD Comics](http://phdcomics.com/comics/archive.php?comicid=1531)
 * Maintain reproducibility in your data management tasks (consistent file names)
   + Which file names maintain reproducibility across time?
       - **SG**: tch_form_cohort1_time1.xlsx **and** tch_form_cohort1_time2.xlsx
-      - **No SG**: tch_form_cohort1_time1.xlsx **and** cohort1_time2_tch_form.xlsx
-      - **No SG**: tch\_form\_cohort1\_time1.xlsx **and** tch\_form\_cohort1\_ time2.xlsx
-      - **No SG**: tch\_form\_cohort1\_time1.xlsx **and** tch\_form\_cohort1\_Time2.xlsx
+      - **No SG**: tch\_form\_cohort1\_time1.xlsx **and** cohort1\_time2\_<span style="color: coral; ">tch</span>\_<span style="color: coral; ">form</span>.xlsx
+      - **No SG**: tch\_form\_cohort1\_time1.xlsx **and** tch\_form\_cohort1<span style="color: coral; ">\_ </span>time2.xlsx
+      - **No SG**: tch\_form\_cohort1\_time1.xlsx **and** tch\_form\_cohort1\_<span style="color: coral; ">T</span>ime2.xlsx
 
 
 ---
