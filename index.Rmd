@@ -118,11 +118,11 @@ gt::gt()
 
 --
 
-* Creates consistency across all projects and/or within individual projects
+* Creates consistency within individual projects and/or across all projects
 
 --
 
-* Document this style guide keep it somewhere that is easily accessed by ALL team members (Team Wiki, in a ReadME at the top of a project file folder)
+* Document this style guide and keep it somewhere that is easily accessed by ALL team members (Team Wiki, in a ReadME at the top of a project file folder)
 
 --
 
@@ -265,22 +265,22 @@ knitr::include_graphics("img/properties.png")
 
 * Allow you to find files easier
   + Which path is more descriptive?
-      - **SG**: W:\project-a\data\cohort-1\student\raw
+      - **SG**: W:\project-a\data\cohort-1\student\survey\raw
       - **No SG**: W:\Project-a\data2 New
 
 --
 
 * Allow your computer to find files easier
   + Which path is more machine readable?
-      - **SG**: W:\project-a\data\cohort-1\student\raw
-      - **No SG**: W:\Project A\Data\Cohort 1\student.raw\Survey
+      - **SG**: W:\project-a\data\cohort-1\student\survey\raw
+      - **No SG**: W:\Project A\Data\Cohort 1\student\Survey.raw
 
 --
 
 * Maintain reproducibility in your data management tasks (consistent file paths)
   + Which file paths maintain reproducibility across time?
-      - **SG**: W:\project-a\data\cohort-1\student\raw **and** W:\project-a\data\cohort-2\student\raw
-      - **No SG**: W:\project-a\data\cohort-1\student\raw **and** W:\project-a\data\cohort-2\<span style="color: coral; ">raw</span>\<span style="color: coral; ">student</span>
+      - **SG**: W:\project-a\data\cohort-1\stu\svy **and** W:\project-a\data\cohort-2\stu\svy
+      - **No SG**: W:\project-a\data\cohort-1\stu\svy **and** W:\project-a\data\cohort-2\<span style="color: coral; ">svy</span>\<span style="color: coral; ">stu</span>
 
 --
 
@@ -307,7 +307,7 @@ knitr::include_graphics("img/properties.png")
 
 --
 
-* Folder names should human readable (meaningful and easy to understand)
+* Folder names should be human readable (meaningful and easy to understand)
 
 --
 
@@ -332,9 +332,9 @@ knitr::include_graphics("img/properties.png")
       - Level 1: Name of project  
       - Level 2: Life cycle folders  
       - Level 3: Time period/Data collection wave folders (if relevant)  
-      - Level 4: Specific content folder  
-      - Level 5: Participant specific folder
-      - Level 5: Archive folders  
+      - Level 4: Participant specific folder
+      - Level 5: Specific content folder  
+      - Level 6: Archive folders  
 2. All folders should be named according to these rules  
       - Meaningful name but no longer than 20 characters  
       - No spaces or periods in folder names  
@@ -597,9 +597,9 @@ You have one of two options:
   + Every time you save a new copy you can add comments to explain the differences between versions
   + You can go back into your history and restore previous versions
   
-2. **<span style="color: #009400; ">Create your own manual versioning (less preferred method))</span>** 
+2. **<span style="color: #009400; ">Create your own manual versioning (less preferred method)</span>** 
 
-  + Again, by adding a date and/or a version number to your documents you can track the most recent versions of documents
+  + By adding a date and/or a version number to your documents you can track the most recent versions of documents
   + Adding a README to your folders (ex: ReadME_versioning.txt) where you add comments explaining the document updates each time you save a new version
 
 ---
@@ -766,10 +766,10 @@ Depending on how you plan to merge your data, there are 2 ways to account for ti
   + Every participant has one row of data
   + For example for 3 waves of scale1 on the student self-survey
       + *s1_scale1*, *s2_scale1*, *s3_scale1* 
-      + Or *s_fall_scale1*, *s_wint_scale1*, *s_spr_scale1* 
+      + **Or** *s_fall_scale1*, *s_wint_scale1*, *s_spr_scale1* 
   + If you are collecting cohorts, you may still want *cohort* added as a separate variable
 
-2. **<span style="color: #009400; ">Create a time variable and add them to your data.</span>** 
+2. **<span style="color: #009400; ">Create time variables and add them to your data.</span>** 
 
   + You do this if you plan to append your data in long format.
   + Every participant occurs in your data more than once for each wave of data collection.
@@ -809,7 +809,7 @@ gt::gt()
 
 # Variable names - final thoughts on time
 
-You do not need to decide the following yet:
+You do not need to decide any of this right away:
 
   * How you want to merge your data
   * How you want to account for time
@@ -817,15 +817,17 @@ You do not need to decide the following yet:
 
 --
 
-As you collect data, account for time in your file name:
+As you collect data, account for all relevant metadata in your file name:
 
   * c1_t1_stu_svy_clean-data_2021-01-10.sav
   * Because of my style guide, I know this file is cohort 1, time 1, student, self-report survey
-  * When I go to finally merge my data, I can make my decisions then
+  * When I go to finally merge my data, I can make my decisions then about adding a survey instrument prefix and accounting for time
 
 --
 
-If you choose long and later want your data in wide format, it is very easy to switch back and forth between long and wide format in statistical programs. Don't worry!
+<br>
+
+If you choose to merge in a long format and later want your data in wide format, it is very easy to switch back and forth between long and wide format in statistical programs. Don't worry!
 
 Whatever you finally decide on, document your rule in your **style guide**
 
