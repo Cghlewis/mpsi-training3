@@ -555,7 +555,7 @@ knit_print.with_flair()
 # Example file names using that guide
 
 * `01_c1_t1_stu_svy_cleaning-syntax_2021-01-22.R`
-* `01_c1_t1_stu_svy_cleaning-syntax_2021-01-11v02.R`
+* `01_c1_t1_stu_svy_cleaning-syntax_2021-01-22v02.R`
 * `02_c1_t1_stu_svy_report-syntax_2021-01-23.R`
 * `02_c1_t1_stu_svy_report-syntax_2021-02-05.R`
 
