@@ -692,7 +692,7 @@ Source: [Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/8k9cmu/indeed
 
 --
 
-* Don't use spaces or special characters (except `-` or `_`)
+* Don't use spaces or special characters (except `_`)
 
 --
 
@@ -701,8 +701,8 @@ Source: [Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/8k9cmu/indeed
   + Pascal case (*ScaleSum*)
   + Snake case (*scale_sum*)--preferred method for variable names
   + Camel case (*scaleSum*)
-  + Kebab case (*scale-sum*)
-  + Train case (*Scale-Sum*)
+  + Kebab case (*scale-sum*)--don't use for variable names
+  + Train case (*Scale-Sum*)--don't use for variable names
 
 --
 
